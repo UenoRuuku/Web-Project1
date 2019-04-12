@@ -1,0 +1,222 @@
+body{
+    background: #202C3B
+}
+a{
+    color:#8f98a0;
+    font-size: 12px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    display: inline;
+}
+a:hover{
+    color:white;
+}
+p,span{
+    margin-bottom:0;
+    color: #c6d4df;
+    font-size: 12px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+h1{
+    margin: 0 0 10px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    padding-top: 2px;
+    color:white;
+}
+/* 解决浮动的问题
+ * 大失败
+ * 放弃治疗了 */
+.expected_price::before, .expected_price::after{
+    display: table;
+    content: "";
+}
+.expected_price::after{
+    clear: both;
+}
+
+
+
+
+
+
+.title{
+    margin-left:10%;
+    margin-bottom:5%;
+}
+.main_area{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:80%;
+    min-width: 700px;
+    margin:0 auto;
+}
+.cart{
+    min-width: 700px;
+}
+.item, .item_del{
+    background: #1A232F;
+    display:flex;
+    flex-direction: row;
+    padding:10px;
+    margin:2%;
+    width: 80%;
+    margin:5px auto;
+    max-width: 600px;
+}
+.item_del{
+    display: none;
+}
+.item_img{
+    height:45px;
+    width:120px;
+}
+.item span, .item_del span{
+    width: 50%;
+    height:30px;
+    line-height:30px;
+    padding-left:15px;
+}
+.icon{
+    display: flex;
+    color:white;
+    flex-direction:row;
+    margin-right:3%;
+}
+.icon span{
+    display: inline-block;
+    padding:2px;
+    height:45px;
+    line-height:45px;
+}
+.price span{
+    padding:0;
+}
+.price a{
+    padding:15px;
+}
+.conclusion{
+    background: #1A232F;
+    padding:10px;
+    margin:2%;
+    width: 80%;
+    margin:20px auto;
+    max-width: 600px;
+}
+.expected_price{
+    display: block;
+    float:right;
+    height:100px;
+}
+b{
+    color:white;
+}
+.sap{
+    height:2px;
+    border-top: 1px solid #364c59;
+    margin: 30px 0px;
+}
+.conclusion p{
+    color: #ffcc6a;
+}
+.choice{
+    display: flex;
+    flex-direction: row;
+    margin-left:45%;
+    margin-top:5%;
+}
+.conclusion .choice a{
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    font-size:15px;
+    border-radius: 2px;
+    height:30px;
+    line-height:30px;
+    width:170px;
+    margin:5%;
+    border: none;
+    padding-left: 15px;
+    padding-right: 5px; 
+    cursor: pointer;
+    text-decoration: none;
+    color: #D2E885;
+    background: linear-gradient( to bottom, rgba(121,153,5,1) 5%, rgba(83,105,4,1) 95%);
+}
+.conclusion .choice a:hover{
+    background:olivedrab;
+}
+
+
+.adv_area{
+    margin:0 auto;
+}
+
+.adv{
+    margin:20px;
+    width:308px;
+    padding-bottom:3px;
+    background:linear-gradient( to bottom, #ffffff 5%, #abdaf4 95%);
+}
+.adv:hover{
+    cursor: pointer;
+}
+.adv_img{
+    height:143.5px;
+    overflow: hidden;
+}
+.adv img{
+    width: 100%;
+}
+.adv_detail{
+    position: relative;
+    height: 40px;
+    width: 308px;
+    display: flex;
+}
+
+.discount{
+    display: flex;
+    flex-direction: row;
+}
+.discount_green{
+    width: 65px;
+    height: 34px;
+    display: block;
+    line-height: 34px;
+    padding-left:5px; 
+    padding-right:5px;
+    margin-top: 6px;
+    margin-left:6px;
+    background: linear-gradient( to bottom, rgba(121,153,5,1) 5%, rgba(83,105,4,1) 95%);
+}
+.discount_green span{
+    color: #a4d007;
+    font-size: 26px
+}
+.discount_price{
+    background:black;
+    height: 34px;
+    margin-top: 6px;
+    width: 45px;
+    padding-left:10px;
+}
+.discount_price .now{
+    color: #acdbf5;
+    font-size: 13px;
+    margin:0;
+    padding: 0;
+}
+.discount_price .org{
+    text-decoration: line-through;
+    color: #626366;
+    font-size: 11px
+}
+.rest_time{
+    margin-left:120px;
+}
+.rest_time span{
+    color: #283846;
+    font-size: 11px;
+}

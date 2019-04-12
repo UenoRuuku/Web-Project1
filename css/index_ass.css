@@ -1,0 +1,158 @@
+.ass{
+    position: relative;
+    margin:auto;
+    width:80%;
+    height:500px;
+}
+.ass_title{
+    position:absolute;
+    left:70px;
+    top:5px;
+    padding: 5px;
+    width: 90%;
+    height:25px;
+    line-height:25px;
+}
+.ass_title h{
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+.ass_arrow{
+    position: absolute;
+    top:50%;
+    height: 108px;
+    width: 100%;
+}
+.ass_arrow a{
+    display: block;
+    font-size: 70px;
+    font-weight: bold;
+    margin-left:-15px;
+    color: white;
+    height: 108px;
+    width: 45px;
+    line-height: 108px;
+}
+.ass_arrow_left{
+    float: left;
+    height:108px;
+    width: 45px;
+    background:linear-gradient(to right, #163245, transparent);
+}
+.ass_arrow_left:hover{
+    background:linear-gradient(to right, #49738D, transparent);
+}
+
+.ass_arrow_right{
+    float: right;
+    height:108px;
+    width: 45px;
+    background:linear-gradient(to left, #163245, transparent);
+}
+.ass_arrow_right:hover{
+    background:linear-gradient(to left, #49738D, transparent);
+}
+
+
+
+#ass_adv{
+    position: absolute;
+    top:45px;
+    left:0;
+    width:100%;
+    height:500px;
+    overflow: hidden;
+    /* border:1px solid white; */
+}
+ #ass_adv ul
+ {
+     position: absolute;
+     left:0;
+     height:100%;
+     width: 200%;
+     padding: 0px;
+     cursor: pointer;
+
+ }
+ #ass_adv ul li
+ {
+     float: right;
+     width: 50%;
+     height: 100%;
+     display: flex;
+ }
+
+.ass_adv11{
+    width:40%;
+    height: 100%;
+    margin:5px;
+}
+.ass_adv1 img, .ass_adv2 img
+{     
+    width:100%;
+    height: 100%;
+}
+
+ .ass_adv1{
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    margin-bottom:5px;
+}
+
+.ass_adv1_description_1{
+    position: absolute;
+    top:0;
+    height: 50%;
+    width: 10%;
+    background:black;
+    opacity: 0.5;;
+    margin-top:5px;
+    box-shadow: 0 0 10px white;
+
+}
+.ass_adv1_description_2{
+    position: absolute;
+    top:50%;
+    height: 50%;
+    width: 10%;
+    background:black;
+    opacity: 0.5;
+    margin-top:10px;
+    box-shadow: 0 0 10px white;
+}
+
+
+.ass_adv2{
+    float: left;
+   overflow: hidden;
+   height: 100%;
+   width:30%;
+   margin:5px;
+}
+
+.ass_adv2_description{
+    position: absolute;
+    top:70%;
+    height: 50%;
+    width: 15%;
+    background:black;
+    opacity: 0.5;
+    margin-right:5px;
+    box-shadow: 0 0 10px white;
+
+}
+.description_text{
+    text-align: center;
+    text-shadow: 0 0 2px black;
+}
+.description_text:hover{
+    font-size:20px;
+}
+
+
+

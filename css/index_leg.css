@@ -1,0 +1,111 @@
+.leg{
+    position: relative;
+    top:75px;
+    margin:auto;
+    width:80%;
+    height:750px;
+}
+.leg_title{
+    position:absolute;
+    left:70px;
+    top:5px;
+    padding: 5px;
+    width: 80%;
+    height:25px;
+    line-height:25px;
+}
+.leg_title h{
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+.leg_button{
+    position: relative;
+    top:55px;
+    margin: auto;
+    width:90%;
+    height:58px;
+}
+.leg_button a{
+    width: 226px;
+    height: 58px;
+    margin-right:5px;
+    background-color:#216182;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 56px;
+    color: #66c0f4;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 0 4px #000;
+}
+.leg_button a:hover{
+    background-color:#237297;
+    color: #fff;
+}
+.leg_name{
+    position:relative;
+    left:70px;
+    top:150px;
+    padding: 5px;
+    width: 80%;
+    height:25px;
+    line-height:25px;
+}
+.leg_name h{
+    float: left;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: normal; 
+    height: 25px;
+    line-height:25px; 
+}
+.leg_recommend{
+    position: relative;
+    top:200px;
+}
+
+#table{
+    display:flex;
+}
+#table div{
+    flex:1;
+    text-align: center;
+    padding:30px 30px ;
+    margin:10px;
+    margin-left:20px;
+    margin-right: 20px;
+    background: linear-gradient( 153deg, rgba( 255, 255, 255, 0.2) 5%,rgba( 255, 255, 255, 0.1) 95%);
+}
+#table img{
+    border:3px solid #216182;
+    margin-bottom: 15px;
+    width:30%;
+}
+#table h2{
+   vertical-align: middle;
+   font-size: 17px;
+   font-weight: 600;
+   font-style: normal;
+   font-stretch: normal;
+   color:white;
+   margin-bottom: 15px;
+}
+#table p, #table span{
+    color: #c6d4df;
+    font-size: 12px;
+}
+#table a{
+    color:green;
+}
+#table a:hover{
+    color:greenyellow;
+}

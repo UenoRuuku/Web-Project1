@@ -1,0 +1,47 @@
+.tail{
+    background-color:black;
+    height:266px;
+}
+.tail_title{
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    color: #67c1f5;
+    background-image:URL(../image/login_back.png);
+    background-repeat: repeat-x;
+    height:34px;
+    text-align: center;
+}
+.tail_title span{
+    background-color: black;
+}
+.tail_content{
+    text-align: center;
+    padding: 16px;
+    text-align: center;
+    font-size: 15px;
+    color: #8f98a0;
+    font-family: "Motiva Sans", Sans-serif;
+}
+.tail_content a{
+    color:white;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+}
+.tail_content a:hover{
+    color:#66c0f4;
+}
+.tail_button{
+    height:30px;
+    width:60px;
+    border-radius: 4px;
+    border: 2px solid #172030;
+    padding: 1px;
+    display: inline-block;
+    cursor: pointer;
+    color: #D2E885;
+    background: linear-gradient( to bottom, #a4d007 5%, #536904 95%);
+}
+
+

@@ -1,0 +1,158 @@
+body{
+    background: #202C3B;
+}
+h1{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+}
+p{
+    color: #c6d4df;
+    font-size: 12px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+li,p1{
+    color: #c6d4df;
+    font-size: 12px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+.form p{
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    margin-bottom: 0.5px;
+}
+.type_input{
+    background-color:#E7EFFE;
+    border: 1px solid #000;
+    border-radius: 3px;
+    box-shadow: 1px 1px 0px #45556c;
+    width: 50%;
+    min-width: 250px;
+    padding: 5px;
+    margin: 4px 0;
+    font-size: 16px;
+    line-height: 21px;
+}
+/*以下是特色*/
+.register{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width:80%;
+    margin:0 auto;
+}
+.register_area{
+    float: left;
+    margin-right:5%;
+}
+.register_area a{
+    color: #c6d4df;
+    font-size: 12px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.register_area_color{
+    float: left;
+    min-height: 352px;
+    max-width: 600px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 14px;
+    background-color: #1A232F;
+}
+.register_login{
+    position: relative;
+    min-width: 274px;
+    min-height: 330px;
+}
+.register_login .form .submit{
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    padding: 1px;
+    display: inline-block;
+    color: #67c1f5 ;
+    background: rgba( 103, 193, 245, 0.2 );
+    height: 30px;
+    width: 60px;
+    font-size:15px;
+
+
+    position: absolute;
+    top:280px;
+}
+.register_login .form .submit:hover{
+    color: white;
+    background:linear-gradient(to right,#67BFF5,#457EA0)
+}
+.register_sap{
+    border-left: 1px solid #264959;
+    width: 2px;
+    height: 210px;
+    margin: 0 16px;
+}
+.register_register{
+    position: relative;
+    max-width: 274px;
+    min-height: 300px;
+}
+
+.register_register a{
+    text-decoration: underline;
+}
+.register_register .button{
+    display: block;
+    height:30px;
+    width: 80px;
+    line-height: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #67c1f5;
+    font-size:15px;
+    background: rgba( 103, 193, 245, 0.2 );
+    padding-left:15px;
+    padding-right:15px;
+    position: absolute;
+    top:200px;
+}
+.register_register .button:hover{
+    color: white;
+    background:linear-gradient(to right,#67BFF5,#457EA0);
+}
+
+.register_reason{
+    min-height: 352px;
+    padding: 16px;
+    padding-bottom: 14px;
+    background-color: #1A232F;
+}
+.register_reason li{
+    line-height: 20px;
+}
+
+.register_addition a{
+    display: inline;
+    line-height: 30px;
+}
+
+
+
+
